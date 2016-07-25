@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsWeb", "ContosoAdsWeb\ContosoAdsWeb.csproj", "{1983D1A9-1DBE-41A5-A09E-764B767C071C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsCommon", "ContosoAdsCommon\ContosoAdsCommon.csproj", "{DA8B60A3-DFBC-4205-8C5C-BA5AF545584B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsWebJob", "ContosoAdsWebJob\ContosoAdsWebJob.csproj", "{55970867-D146-4F67-BCEE-116913AD9B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAds.DAL", "ContosoAds.DAL\ContosoAds.DAL.csproj", "{F0DD9E3E-FAD3-4EA0-ACC0-1AC0EE12BF6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAds.Logger", "ContosoAds.Logger\ContosoAds.Logger.csproj", "{1F13D60E-D9C3-47F1-98DB-C9AC578DE5E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAds.BLL", "ContosoAds.BLL\ContosoAds.BLL.csproj", "{14B97DE5-4F37-4F6D-B4E8-7E235A10064F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsWebAPI", "ContosoAdsWebAPI\ContosoAdsWebAPI.csproj", "{0499CA55-6F99-4D95-B06C-FB136D74A172}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MobileApps", "MobileApps", "{D1CF19D5-A383-42E5-998F-7830B0D76044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1983D1A9-1DBE-41A5-A09E-764B767C071C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1983D1A9-1DBE-41A5-A09E-764B767C071C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1983D1A9-1DBE-41A5-A09E-764B767C071C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1983D1A9-1DBE-41A5-A09E-764B767C071C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8B60A3-DFBC-4205-8C5C-BA5AF545584B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8B60A3-DFBC-4205-8C5C-BA5AF545584B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8B60A3-DFBC-4205-8C5C-BA5AF545584B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8B60A3-DFBC-4205-8C5C-BA5AF545584B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55970867-D146-4F67-BCEE-116913AD9B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55970867-D146-4F67-BCEE-116913AD9B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55970867-D146-4F67-BCEE-116913AD9B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55970867-D146-4F67-BCEE-116913AD9B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0DD9E3E-FAD3-4EA0-ACC0-1AC0EE12BF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DD9E3E-FAD3-4EA0-ACC0-1AC0EE12BF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DD9E3E-FAD3-4EA0-ACC0-1AC0EE12BF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DD9E3E-FAD3-4EA0-ACC0-1AC0EE12BF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F13D60E-D9C3-47F1-98DB-C9AC578DE5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F13D60E-D9C3-47F1-98DB-C9AC578DE5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F13D60E-D9C3-47F1-98DB-C9AC578DE5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F13D60E-D9C3-47F1-98DB-C9AC578DE5E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B97DE5-4F37-4F6D-B4E8-7E235A10064F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B97DE5-4F37-4F6D-B4E8-7E235A10064F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B97DE5-4F37-4F6D-B4E8-7E235A10064F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B97DE5-4F37-4F6D-B4E8-7E235A10064F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0499CA55-6F99-4D95-B06C-FB136D74A172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0499CA55-6F99-4D95-B06C-FB136D74A172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0499CA55-6F99-4D95-B06C-FB136D74A172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0499CA55-6F99-4D95-B06C-FB136D74A172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
